@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid seagreen;
+    color: yellow;
+}
+
+.row, main {
+    
+    width: 100%;
+    float: left;
+ 
+}
+
+body{
+    background-image: url(champion.jpg);
+}
+
+.p-1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+    background-color: black;
+}
+
+.p-2 {
+    background-color: black;
+    color: yellow;
+}
+
+.p-3 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: yellow;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.half-height {
+      height: 50vh;
+}
+
+.quater-height{
+       height: 25vh;
+}
+
+.small-height{
+       height: 15vh;
+
+}
+
+.inherit {
+    height: inherit;
+}
+
+.mn-2 {
+    margin-bottom: 5px;
+}
+
+.p-5 {
+    padding: 10px 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 24.99%; }
+.col-4 { width: 33.32%; }
+.col-5 { width: 41.65%; }
+.col-6 { width: 49.98%; }
+.col-7 { width: 58.31%; }
+.col-8 { width: 66.64%; }
+.col-9 { width: 74.97%; }
+.col-10 { width: 83.3%; }
+.col-11 { width: 91.63%; }
+.col-12 { width: 99.96%; }
+
+[class*="col-"] {
+    float: left;
+    padding: 1%;
+}
